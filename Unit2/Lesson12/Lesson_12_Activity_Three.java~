@@ -1,0 +1,32 @@
+/*
+ * Lesson 12 Coding Activity 3 
+ * Input two decimal numbers and print the largest.
+ * If the numbers are equal, print one of them.
+ *     
+ *     Sample Run 1
+ *         Enter a test score:
+ *         78.5
+ *         Valid
+ *
+ *         
+ *      Sample Run 2
+ *         Enter a test score:
+ *         179
+ *         Not Valid         
+ * 
+ */
+
+
+import java.util.Scanner;
+
+class Lesson_12_Activity_Three {
+    public static void main(String[] args)
+     {
+     /*
+      * Write your code here
+      * Copy and paste your entire program to Code Runner
+      * to complete the activity, from the first import statement
+      * to the last bracket.
+      */
+    }
+}

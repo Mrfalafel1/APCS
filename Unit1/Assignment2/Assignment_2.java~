@@ -1,0 +1,32 @@
+import java.util.Scanner;
+import java.lang.Math;
+import java.io.*;
+
+
+class Main {
+    public static void main(String[] args) throws IOException {
+      
+        Scanner scan = new Scanner (System.in);
+        
+        System.out.println("Please Enter the Cost of the Item:");
+        double i = scan.nextDouble();
+        System.out.println("Please Enter the Amount Paid:");
+        double p = scan.nextDouble();
+        
+        double cr = (p-i);
+        double c0 = (p-i);
+        int q = (int)(c0/.25);
+        double c1 = (c0-q*.25);
+        int d = (int)((c1/.1));
+        double c2 = (c1-d*.1);
+        int n = (int)(c2/.05);
+        double c3 = (c2-n*.05);
+        int pe = (int)(c3/.01);
+        
+        System.out.println("Change owed: " + cr);
+        System.out.println("Quarters: " + q);
+        System.out.println("Dimes: " + d);
+        System.out.println("Nickles: " + n);
+        System.out.println("Pennies: " + pe);
+    }
+}

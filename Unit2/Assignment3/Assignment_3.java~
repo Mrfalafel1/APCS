@@ -1,0 +1,58 @@
+import java.util.Scanner;
+import java.lang.Math;
+import java.io.*;
+
+
+class Main {
+    public static void main(String[] args) throws IOException {
+      
+      Scanner scan = new Scanner (System.in);
+      System.out.println("What month were you born in?(number)");
+      int month = scan.nextInt();
+      System.out.println("What day (number)");
+      int day = scan.nextInt();
+      
+      if(((month > 12) || (month < 1)) || ((day > 31) || (day < 1))){
+        System.out.println("error");
+      }
+      
+      if(month == 1){
+        String m = "January";
+      }
+      else if(month == 2){
+        String m = "February";
+      }
+      else if(month == 3){
+        String m = "March";
+      }
+      else if(month == 4){
+        String m = "April";
+      }
+      else if(month == 5){
+        String m = "May";
+      }
+      else if(month == 6){
+        String m = "June";
+      }
+      else if(month == 7){
+        String m = "July";
+      }
+      else if(month == 8){
+        String m = "August";
+      }
+      else if(month == 9){
+        String m = "September";
+      }
+      else if(month == 10){
+        String m = "October";
+      }
+      else if(month == 11){
+        String m = "November";
+      }
+      else{
+        String m = "December";
+      }
+      
+      System.out.println("Your birthday is: " + m + d + s);
+    }
+}
